@@ -1,0 +1,12 @@
+> Play this document as a notebook with the [Ziffers & Sonic Pi extension for VS Code](https://marketplace.visualstudio.com/items?itemName=amiika.vscode-ziffers
+
+
+
+
+
+# Implementation
+
+* Started as a personal Sonic Pi project to overcome the disassociation with the pitch and the rhythm (around 2018)
+* Further developed trough a discourse with the users in the Sonic Pi community and by researching the use of numbered notations and post tonal theory
+* MuseScore plugin in 2021
+* Latest Ziffers version (using Treetop PEG) in 2022

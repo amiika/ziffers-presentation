@@ -1,0 +1,26 @@
+> Play this document as a notebook with the [Ziffers & Sonic Pi extension for VS Code](https://marketplace.visualstudio.com/items?itemName=amiika.vscode-ziffers
+
+
+
+# Note durations
+
+Note durations are defined using:
+
+* duration characters (a-z)
+  * dotted & tied notes
+* decimals
+  * random durations
+  
+**Common durations:**
+
+|	Character	|	Note length	|	Note name (US)	|	Note name (UK)	|
+| - | --- | ------- | ----- |
+|	w	|	1.0	|	Whole note	|	Semibreve	|
+|	h	|	0.5	|	Half note 	|	Minim	|
+|	q	|	0.25	|	Quarter note	|	Crotchet	|
+|	e	|	0.125	|	8th note	|	Quaver	|
+|	s	|	0.0625	|	16th note	|	Semiquaver	|
+
+```
+zplay "| q. 0 0 | q0 e1 q.2 | q2 e1 q2 e3 | h4 qr | e 7 7 7 4 4 4 | e 2 2 2 0 0 0 | q4 e3 q2 e1 | h. 0 |", bpm: 200, synth: :piano
+```

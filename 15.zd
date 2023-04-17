@@ -1,0 +1,19 @@
+> Play this document as a notebook with the [Ziffers & Sonic Pi extension for VS Code](https://marketplace.visualstudio.com/items?itemName=amiika.vscode-ziffers
+
+
+# Evaluation
+
+* In ziffers curly braces entails evaluation
+* Can be used to both evaluate and escape pitches with more than on digit
+* Ternary statements
+* Functions
+```
+# zplay "9 {10}"                        # Escaped values
+# zplay "1 {1.3 1.7} 2"                 # In between pitches
+# zplay "{9+3 3*6}"                     # Evaluate as pitches
+# zplay "={10 (10,20) 3*5}"             # Evaluate as chords
+# zplay "{%>0.5?3}"                     # Single conditional pitch
+# zplay "{(0,9)>4?(1,3):(3,6)}"         # Random numbers based on condition
+# zplay "{%>0.5?4 %>0.2?5:3}"           # Ternary statements
+# zplay "e (0..10){x%2==0?(x+3):(2x)}"  # Functions
+```

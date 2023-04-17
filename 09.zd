@@ -1,0 +1,16 @@
+> Play this document as a notebook with the [Ziffers & Sonic Pi extension for VS Code](https://marketplace.visualstudio.com/items?itemName=amiika.vscode-ziffers
+
+# Rhythm subdivision
+
+* Durations can be subdivided with similar notation inspired by Tidal Cycles
+* Default length for note is quarter note (which is subdivided by default)
+* Easiest way to do triplets etc.
+```
+use_synth :piano
+
+zplay "s 0 1 2 4 e 5 #2"
+zplay "[0 1 2 4] [5 #2]"
+
+zplay "[2 5 1] q 4"
+zplay "f 2 5 1 q 4"
+```

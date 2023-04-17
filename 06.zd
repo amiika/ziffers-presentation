@@ -1,0 +1,21 @@
+> Play this document as a notebook with the [Ziffers & Sonic Pi extension for VS Code](https://marketplace.visualstudio.com/items?itemName=amiika.vscode-ziffers
+
+
+
+
+
+
+
+
+# Basic notation
+
+* Contains building blocks for pitches and rhythm
+  * Pitches are defined as integers
+  * Durations as decimals or lower-case characters
+  * Rest defined using **r** (or **0** in degree based notation)
+
+
+```
+# Example ziffers
+zplay "e 0 r e 2 5 0.25 3"
+```

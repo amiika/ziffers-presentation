@@ -1,0 +1,10 @@
+> Play this document as a notebook with the [Ziffers & Sonic Pi extension for VS Code](https://marketplace.visualstudio.com/items?itemName=amiika.vscode-ziffers
+
+# Conclusions and future work
+
+* Numbered notation is well suited for algorithmic composition and live coding 
+* Provides an easy introduction to exploratory live coding for those not familiar with the music theory
+* Supports interoperability and exploration between different forms of notation
+* Future of Sonic Pi version uncertain (still works in latest betas)
+* New version for Python and Sardine live coding framework
+* Will also support other Python based composition frameworks such as Music21

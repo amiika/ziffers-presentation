@@ -1,0 +1,12 @@
+> Play this document as a notebook with the [Ziffers & Sonic Pi extension for VS Code](https://marketplace.visualstudio.com/items?itemName=amiika.vscode-ziffers
+
+# What the Ziffers?
+
+* Number based musical notation for live coding and algorithmic composition
+* Result of experiments in unifying several types of musical notation
+* Development started from frustration of using data structures such as lists for representing pitch and rhythm in live coding
+* Re-inventing the numbered notation eventually led to years of self-study and research on numbered notation, traditional sheet music and pattern notations used in live coding
+```
+# Basic ziffers
+zplay "q 0 4 e 2 5 6 2 8", synth: :piano
+```

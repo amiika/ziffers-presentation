@@ -1,0 +1,21 @@
+> Play this document as a notebook with the [Ziffers & Sonic Pi extension for VS Code](https://marketplace.visualstudio.com/items?itemName=amiika.vscode-ziffers
+
+
+# Ziffers for MuseScore
+
+* Plugin for MuseScore 3.0
+* Supports export to Ziffers from MIDI, MusicXML and ABC notation (with separate plugin).
+
+<img src="Musescore.png" width=500>
+```
+use_bpm 80
+
+ziffers " // Aphex Twin - Avril 14th with added transformations
+/ synth: piano
+| q ^ 2 _ 5 ^ 0 e r s 0  | sq. 5 e 5 ^ 4 3 2 0  | / retrograde: [false,false,true]
+| q 2 _ 5 ^ 0 e r s 0 _  | sq. _ 5 e 5 ^ 4 3 2 0  | / octave: [0,0,1,-1]
+| e __ 0 5 ^ 0 2 _ 2 ^ 0 2 4  | e __ 3 ^ 0 3 4 _ 1 ^ 0 3 2 | / inverse: [0,0,1,0]"
+
+zkill
+
+```

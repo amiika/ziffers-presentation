@@ -1,0 +1,26 @@
+> Play this document as a notebook with the [Ziffers & Sonic Pi extension for VS Code](https://marketplace.visualstudio.com/items?itemName=amiika.vscode-ziffers
+
+
+
+
+
+# Defining pitches
+
+By default Ziffers uses pitch class notation. Individual pitches can be notated using integer from -9 to 9 and using T/E for 12 tone composition.
+
+<img src="pc_line.png" width=800>
+
+0-based root gives a natural inversion point compared to traditional degree based notation. Arithmetic operations also work better when zero does not mean a rest. Degree based notation (similar to rousseaus) can also be used and it can be easier for those who are customed to degree based notation. In this notation degrees start from **1** and **0** means rest. 
+
+<img src="degree_line.png" width=800>
+
+
+
+
+```
+use_synth :piano
+zplay "1 0 024", duration: 0.125
+set_degree_based
+zplay "1 0 135", duration: 0.125
+set_degree_based false
+```

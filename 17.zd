@@ -1,0 +1,14 @@
+> Play this document as a notebook with the [Ziffers & Sonic Pi extension for VS Code](https://marketplace.visualstudio.com/items?itemName=amiika.vscode-ziffers
+
+
+
+# Euclidean rhythms
+
+* A novel syntax that combines onset and offset values of the euclidean cycles
+* Basic syntax: (onset)<beats,total,rotate>(offset)
+* Offset defaults to rest
+```
+# zplay "(s 0 3 2 5)<5,8>"                                          # Onset is cycles and offset defaults to r
+# zplay "(q0 q2)<3,5>((e 3 4) (e 1 4))"                             # Pitches from the onset and lists from the offset
+# zplay "(eX sB)<13,16,3>(eB sX)", X: :drum_snare_soft, B: :bd_fat  # Rotated by 3 with samples or events
+```

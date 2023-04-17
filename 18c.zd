@@ -1,0 +1,35 @@
+> Play this document as a notebook with the [Ziffers & Sonic Pi extension for VS Code](https://marketplace.visualstudio.com/items?itemName=amiika.vscode-ziffers
+
+
+
+# Enumerables
+
+* Number sequences that can be calculated on the fly
+* Endless inspiration and a deep rabbit hole: https://oeis.org/
+* Ziffers includes some preconfigured generators like:
+  * Pi
+  * Morse-Thue
+  * Mosed-de Bruijn
+  * etc.
+
+```
+use_bpm 200
+
+r_map = {0=>"h", 1=>"q",2=>"q",3=>"h",4=>"w",5=>"q",6=>"q", 7=>"q",8=>"e",9=>"q"}
+
+# z1 euler, rhythm: r_map , key: :c3, synth: :chiplead # Synth options can be modified on the fly
+# z2 pi, rhythm: r_map, key: :c3, synth: :chipbass
+
+#mthue = (0..Float::INFINITY).lazy.collect{|n|n.to_s(2).split('').count('1')%7}
+#z1 mthue, rhythm: spread(4,9), scale: :bayati, synth: :subpulse, harmonize: [3,6]
+
+#z2 "//5", sample: :ambi_glass_hum
+#z3 "X H", X: :drum_snare_hard, H: :bd_tek
+
+# Moser–de Bruijn sequence: sums of distinct powers of 4
+# https://oeis.org/A000695
+# z1 bruijn, duration: ->(i){i%rrand_i(3,6)==0 ? 0.25 : 0.5}, scale: :blues_major, synth: :tri, amp: 0.5, release: 0.1, attack: 0.1, decay: 0.1
+# https://oeis.org/A059905
+# z2 bruijn_walk, duration: 0.5, key: :c3, synth: :fm
+
+```

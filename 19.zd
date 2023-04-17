@@ -1,0 +1,19 @@
+> Play this document as a notebook with the [Ziffers & Sonic Pi extension for VS Code](https://marketplace.visualstudio.com/items?itemName=amiika.vscode-ziffers
+
+
+# Sonic Pi and Ziffers
+
+* Can be used as a shorthand within the Sonic Pi syntax
+```
+# Example of using Ziffers with the Sonic Pi language
+with_fx :reverb, room: 1.0 do 
+  live_loop :sonic_pi do
+    with_synth_defaults divisor: rrand(0.1,0.15), attack: rrand(0.01,0.1) do
+      pling = rrand_i(1000,3000)
+      4.times do
+        zplay pling, synth: :fm, scale: :mixolydian, rhythm: "q.eqe", octave: ->(){rrand_i(-1,1)}
+      end
+    end
+  end
+end
+```

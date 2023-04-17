@@ -1,0 +1,15 @@
+> Play this document as a notebook with the [Ziffers & Sonic Pi extension for VS Code](https://marketplace.visualstudio.com/items?itemName=amiika.vscode-ziffers
+
+
+# Cyclic syntax
+
+* Previously introduced by TidalCycles
+* Ideas applied to sequential notation
+```
+# z1 "<1 2 <3 <4 5>>>"                     # Cyclic notation for loops
+# zplay "[: 1 <2 4> :]"                    # Alternate endings for repeat
+# zplay "(: (1,7) <2 <4 5>> :3)"           # Cycles in a repeated list
+# zplay "(1 [2 <4 5>] 024)+(<2 0> 1 2)""   # Brackets and cycles in a list
+# zplay "(1 2 3)+<(1 2) (4 6)>"            # Operations with cyclic lists
+# zplay "(0 <1 2>)<+ - *><0 1 2>"          # Cyclic everything
+```
