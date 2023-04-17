@@ -1,6 +1,4 @@
-> Play this document as a notebook with the [Ziffers & Sonic Pi extension for VS Code](https://marketplace.visualstudio.com/items?itemName=amiika.vscode-ziffers
-
-
+> Ziffers
 
 # Enumerables
 
@@ -31,5 +29,4 @@ r_map = {0=>"h", 1=>"q",2=>"q",3=>"h",4=>"w",5=>"q",6=>"q", 7=>"q",8=>"e",9=>"q"
 # z1 bruijn, duration: ->(i){i%rrand_i(3,6)==0 ? 0.25 : 0.5}, scale: :blues_major, synth: :tri, amp: 0.5, release: 0.1, attack: 0.1, decay: 0.1
 # https://oeis.org/A059905
 # z2 bruijn_walk, duration: 0.5, key: :c3, synth: :fm
-
 ```

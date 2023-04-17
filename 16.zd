@@ -1,8 +1,9 @@
-> Play this document as a notebook with the [Ziffers & Sonic Pi extension for VS Code](https://marketplace.visualstudio.com/items?itemName=amiika.vscode-ziffers
+> Ziffers
 
 # Chords as generators
 
 * Chords can be used to generate progressions and sequences
+
 ```
 # zplay "i ii iii iv v vi vii"             # Supported roman numerals
 # zplay "e i v%1 vi%-1 iv%-1"              # With inversions

@@ -1,6 +1,4 @@
-> Play this document as a notebook with the [Ziffers & Sonic Pi extension for VS Code](https://marketplace.visualstudio.com/items?itemName=amiika.vscode-ziffers
-
-
+> Ziffers
 
 # Chords
 
@@ -9,4 +7,5 @@
 ```
 zplay "024 357 <-1> 579"
 zplay "i iv _v"
+
 ```

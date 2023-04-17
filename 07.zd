@@ -1,7 +1,4 @@
-> Play this document as a notebook with the [Ziffers & Sonic Pi extension for VS Code](https://marketplace.visualstudio.com/items?itemName=amiika.vscode-ziffers
-
-
-
+> Ziffers
 
 
 # Defining pitches
@@ -15,11 +12,10 @@ By default Ziffers uses pitch class notation. Individual pitches can be notated 
 <img src="degree_line.png" width=800>
 
 
-
-
 ```
 use_synth :piano
 zplay "1 0 024", duration: 0.125
+
 set_degree_based
 zplay "1 0 135", duration: 0.125
 set_degree_based false
