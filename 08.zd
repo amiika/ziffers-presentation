@@ -1,12 +1,12 @@
 > Ziffers
 
+
 # Note durations
 
 Note durations are defined using:
-
-* duration characters (a-z)
-  * dotted & tied notes
-* decimals
+* Duration characters (**a-z**)
+  * dotted & tied notes eg. **q. or qe.**
+* Decimals
   * random durations
   
 **Common durations:**

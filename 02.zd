@@ -1,13 +1,14 @@
 > Ziffers
 
 
+
 # What the Ziffers?
 
 * Number based musical notation for live coding and algorithmic composition
 * Result of experiments in unifying several types of musical notation
-* Development started as a personal Sonic Pi project from frustration to data structures such as lists for representing pitch and rhythm
+* Started as a personal Sonic Pi project from frustration of using data structures for pitches and rhythm
+* Re-inventing the numbered notation eventually led to years of self-study and research on numbered notation and mini-languages used in live coding
 * Further developed trough a discourse with the users in the Sonic Pi community
-* Re-inventing the numbered notation eventually led to years of self-study and research on numbered notation and pattern notations used in live coding
 
 ```
 # Basic ziffers

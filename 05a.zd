@@ -1,9 +1,11 @@
 > Ziffers
 
 
+
 # Implementation
 
-* First implementation of Ziffers for Sonic Pi in 2018
-* Ziffers MuseScore plugin in 2021
-* Latest Ziffers version (using Treetop PEG) in 2021-2022
-* Scala parser in early 2023
+* First implementation on *Sonic Pi* buffer in 2018
+* *MuseScore* export plugin in 2021
+* New generative parser (using Treetop PEG) in 2021-2022
+* *Scala* scales parser in 2023
+* Python implementation for *Sardine* in 2023

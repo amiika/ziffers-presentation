@@ -1,9 +1,11 @@
 > Ziffers
 
+
+
 # Rhythm subdivision
 
-* Durations can be subdivided with similar notation inspired by Tidal Cycles
-* Default length for note is quarter note (which is subdivided by default)
+* Durations can be subdivided with similar notation inspired by *Tidal Cycles*
+* Default length for a note is quarter note (can be changed using parameter)
 * Easiest way to do triplets etc.
 ```
 use_synth :piano

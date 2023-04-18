@@ -1,9 +1,10 @@
 > Ziffers
 
+
 # Euclidean rhythms
 
 * A novel syntax that combines onset and offset values of the euclidean cycles
-* Basic syntax: (onset)<beats,total,rotate>(offset)
+* Basic syntax: **(onset)<beats,total,rotate>(offset)**
 * Offset defaults to rest
 ```
 # zplay "(s 0 3 2 5)<5,8>"                                          # Onset is cycles and offset defaults to r

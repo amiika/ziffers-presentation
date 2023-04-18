@@ -1,8 +1,9 @@
 > Ziffers
 
+
 # String rewrite
 
-* Supports simple string rewrite using regexp
+* String rewrite rules using regexp for matching
 * Similar to Markov chains & Lindenmayer systems
 ```
 use_bpm 200

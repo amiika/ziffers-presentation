@@ -1,19 +1,20 @@
 > Ziffers
 
+
 # Objectives for the notation
 
-* Minimalism
+* **Minimalism**
 
   What is the most minimal notation for live coding without being mentally challenging? (Orca vs. Bytebeat)
 
-* Flexibility
+* **Flexibility**
   
-  Suitable for live coding, generative sheet music and numerical analysis. Numeric sequences open for multiple interpretations (pitch classes, degrees, intervals, midi, cc - or anything).
+  Suitable for live coding, generative sheet music and numerical analysis. Numeric sequences open for *multiple interpretations* (pitch classes, degrees, intervals, midi, cc - or anything).
 
-* Learnability
+* **Learnability**
   
   Easy to learn and write melodic sequences in any key. Possible to write down ideas quickly and experiment with minimal changes.
 
-* Interoperability
+* **Interoperability**
 
   Enable exchange of musical ideas easily between different live coding platforms and compositional tools. Transformation from traditional scores to live coding and back.

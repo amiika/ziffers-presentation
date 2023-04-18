@@ -1,10 +1,11 @@
 > Ziffers
 
+
 # Enumerables
 
 * Number sequences that can be calculated on the fly
 * Endless inspiration and a deep rabbit hole: https://oeis.org/
-* Ziffers includes some preconfigured generators like:
+* *Ziffers* includes some preconfigured generators like:
   * Pi
   * Morse-Thue
   * Mosed-de Bruijn

@@ -1,11 +1,18 @@
 > Ziffers
 
+
+
 # Evaluation
 
-* In ziffers curly braces entails evaluation
-* Can be used to both evaluate and escape pitches with more than on digit
+* In *Ziffers* curly braces entails evaluation
+  * Evaluate math: **{2*6%3}**
+  * Escape pitches with more than on digit: **{10 12 11}**
+  * Decimals interpreted as "between pitches": **{1.2 1.6}**
+* Functions: **(0..10){3x}**
 * Ternary statements
-* Functions
+  * Conditional pitches: **{(1,5)>2?3,(3,7)}**
+  * Conditional operations: **(0..10){x%2==0?(2x):(x+2)}**
+
 ```
 # zplay "9 {10}"                        # Escaped values
 # zplay "1 {1.3 1.7} 2"                 # In between pitches

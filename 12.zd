@@ -1,12 +1,12 @@
 > Ziffers
 
+
 # Generative notation
 
 * Adds arithmetics and programmatic features:
-  * Random numbers
-  * Repeats
-  * Arithmetics
-  * Transformations
+  * Random numbers: **% ? (0,9) (0.1,0.5)**
+  * Repeats: **[: :]**
+  * Transformations **(list)<...>(parameters)**
 ```
 zplay "% ? % ? % ?"
 #zplay "[: 0 3 2 :]"

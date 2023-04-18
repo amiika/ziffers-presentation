@@ -1,9 +1,10 @@
 > Ziffers
 
+
 # Cyclic syntax
 
-* Previously introduced by TidalCycles
-* Ideas applied to sequential notation
+* Syntax previously introduced by *TidalCycles*: **<1 <4 5>>**
+* Ideas applied to sequential notation and repeats
 ```
 # z1 "<1 2 <3 <4 5>>>"                     # Cyclic notation for loops
 # zplay "[: 1 <2 4> :]"                    # Alternate endings for repeat

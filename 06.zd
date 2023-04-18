@@ -4,7 +4,7 @@
 # Basic notation
 
 * Contains building blocks for pitches and rhythm
-  * Pitches are defined as integers
+  * Pitches are defined as integers **0-9 (or T and E)**
     * Can be parsed from various datatypes
   * Durations as decimals or lower-case characters
   * Rest defined using **r** (or **0** in degree based notation)

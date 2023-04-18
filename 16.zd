@@ -1,8 +1,10 @@
 > Ziffers
 
+
 # Chords as generators
 
-* Chords can be used to generate progressions and sequences
+* Alternating chord sequences: **(i v vi)+(0 3 4)**
+* Arpeggios: **(i v vi)@(0 2 1 2)**
 
 ```
 # zplay "i ii iii iv v vi vii"             # Supported roman numerals

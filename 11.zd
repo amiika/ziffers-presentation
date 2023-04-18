@@ -1,8 +1,11 @@
 > Ziffers
 
+
 # Chords
 
 * Groups of integers
+  * Most minimalistic syntax for chords
+  * Tradeoff between scale degrees: **10 vs {10}**
 * Roman numerals using **i** and **v**
 ```
 zplay "024 357 <-1> 579"
